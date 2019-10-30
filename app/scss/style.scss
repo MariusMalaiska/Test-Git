@@ -1,0 +1,15 @@
+* {
+    margin: 0 ;
+    padding: 0;
+}
+body {
+    background-color: yellow;
+}
+@import "../scss/header.scss";
+@import "../scss/signup.scss";
+@import "../scss/icons.scss";
+@import "../scss/showcase.scss";
+@import "../scss/people.scss";
+@import "../scss/bottomsignup.scss";
+@import "../scss/rights.scss";
+@import "../scss/mobile.scss";

@@ -1,0 +1,92 @@
+.talking {
+    width: 100%;
+    padding: 100px 0;
+    background-color: rgb(248, 249, 250);
+
+    .text {
+        width: 400px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        margin-bottom: 50px;
+        text-align: center;
+        // border: 2px solid red;
+        font-size: 20px;
+
+    }     
+}
+
+.people {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(248, 249, 250);
+
+ }
+    .font{ 
+        font-size:80px; 
+        color: rgb(34, 136, 254);
+        
+    }
+
+    .img.Mar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    // border: 2px solid red;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-image: url(testimonials-1.jpg);
+    box-shadow: 1px 4px 6px gray;
+   
+}
+
+.img.Ser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    // border: 2px solid red;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-image: url(testimonials-3.jpg);
+    box-shadow: 1px 4px 6px gray;
+}  
+
+.img.Fre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    // border: 2px solid red;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-image: url(testimonials-2.jpg);
+    box-shadow: 1px 4px 6px gray;
+    
+}
+    .person {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       flex-grow: 1;
+       align-items: center;   
+       text-align: center;  
+
+       
+     }
+     
+
+    

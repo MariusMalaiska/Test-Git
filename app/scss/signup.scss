@@ -1,0 +1,56 @@
+
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(bg-masthead.jpg);
+    color: white;
+    font-size: 20px;
+
+    // border: 2px solid red;
+
+    
+  
+   .up{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    width: 520px;
+    height: 50px;
+    // border: 2px solid white;
+   }
+
+    input[type="text"] {
+        position: relative;
+        display: block;
+        width: 400px;
+        height: 35px;
+        border-radius: 10px;
+        font-size: 15px;
+
+    }
+      
+      .button {
+        position: relative;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        width: 100px;
+        background-color: #007bff;
+        border-radius: 5px;
+        color: white;
+        font-size: 20px;
+
+}
+   }
+
