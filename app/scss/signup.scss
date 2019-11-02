@@ -2,6 +2,7 @@
 
 .signup {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -18,7 +19,6 @@
     
   
    .up{
-    position: absolute;
     display: flex;
     align-items: center;
     margin-top: 100px;
@@ -29,7 +29,6 @@
    }
 
     input[type="text"] {
-        position: relative;
         display: block;
         width: 400px;
         height: 35px;
